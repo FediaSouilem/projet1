@@ -1,0 +1,153 @@
+body{
+    font-family:poppins;
+}
+.d-block w-100{
+height: 100vh;
+
+}
+.carousel{
+    padding-bottom: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.titreatelier{
+    font-weight: bold;
+    font-size: 100px;
+    color: black;
+}
+h3{
+    font-weight: bold;
+    color: black;
+}
+h3 span{
+    color:#edbb00
+}
+.paragraphe{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 2em;
+    letter-spacing: 0px;
+    width: 1200px;
+    padding-left: 200px;
+    margin: 19px 50px 100px 0px;
+    border-radius: 0px 0px 0px 0px;
+    text-align: center;
+}
+.contacthome{
+    background-color: #edbb00;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff ;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: #fff;
+}
+.function-atelier{
+    display: grid;
+  grid-template-columns: auto auto ;
+  
+  padding: 20px;
+}
+.function{
+    font-family: "Oswald", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    /* letter-spacing: 1px; */
+ padding: 40px;
+  text-align: center;
+   background-color: #f1f1f1;
+    /* width: 100%; */
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    gap: 10px;
+}
+.function-paragraphe{
+    font-size: 15px;
+    font-family: "Oswald", Sans-serif;
+}
+.contentrea {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #edbb00;
+  }
+  .containerrea {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    /* font-size: 30px; */
+  }
+  .descripprojet{
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .counter{
+      font-size: 40px;
+      margin-top: 10px;
+
+  }
+  body{
+      justify-content: center;
+      
+      align-items: center;
+  }
+  .container-fo{
+      align-items: center;
+      justify-content: center;
+      padding-left: 470px;
+  }
+  .card-fo{
+height: 500px;
+margin: 50px;
+/* box-shadow: 0px 5px 20px black; */
+overflow: hidden;
+  }
+  .intro{
+      height: 70px;
+      width: 350px;
+      padding: 6px;
+      box-sizing: border-box;
+    position: relative;
+      bottom: 100px;
+      background: transparent;
+      color: #fff;
+  }
+  .team-title{
+      margin: 10px;
+      font-size: 20px;
+      visibility: hidden;
+      opacity: 0;
+  }
+  .designation{
+      font-size: 15px;
+      margin: 20px;
+      visibility: hidden;
+      opacity: 0;
+  }
+  .card-fo:hover{
+      cursor: pointer;
+  }
+  .card-fo:hover .intro{
+      height: 100px;
+      bottom: 100px;
+      background-color: black;
+
+  }
+  .card-fo:hover  .designation{
+    opacity: 1;
+    visibility: visible;
+}
+  .card-fo:hover  .team-title{
+      opacity: 1;
+      visibility: visible;
+  }
+  @media(max-width:600px){
+    .contentrea{
+        flex-direction: column;
+    }
+  }
